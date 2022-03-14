@@ -1,0 +1,164 @@
+body{
+    font-family: proxima-nova, sans-serif;
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Højden er låst til at fylde hele skærmen */
+    width: 220px; /* Breden af navbaren */
+    position: fixed; /* Bliver det samme sted */
+    z-index: 1; /* Stay on top */
+    top: 0; 
+    left: 0;
+    background-color: #00454e; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px;}
+  
+  /* Styling af links */
+  .sidenav a {
+    padding: 10px 8px 10px 16px;
+    text-decoration: none; /* fjerner understreg på links*/
+    font-size: 28px;
+    color: white;
+    margin-top: 20px;
+    display: block;} /*får alt til at stå bedre over hindanden og skubber kassen der markere active tagget til den fulde brede*/
+  
+  
+  
+  .main {
+    margin-left: 240px; /* Sikre at indeholdet på siden ikke gemmer sig bag navbaren */
+    padding: 0px 10px;}
+  .active {background-color: #cae4e3;}
+
+ 
+/* slut på navbar*/
+
+/* farver*/
+.farve1{
+    grid-area: farve1;}
+.farve2{
+    grid-area: farve2;}
+.farve3{
+    grid-area: farve 3;}
+
+.farve1{
+    color: white;
+    background-color: #00454e;
+    width: 400px;
+    height: 160px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 45px;
+    font-size: 28px;
+}
+.farve2{
+    color: white;
+    background-color: #cae4e3;
+    width: 400px;
+    height: 160px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 45px;
+    font-size: 28px;
+}
+.farve3{
+    color: white;
+    background-color: #fae76a;
+    width: 400px;
+    height: 160px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 45px;
+    font-size: 28px;
+}
+/*slut på farver*/
+
+/*typografi*/
+.maintypografi{
+    color: #00454e;
+}
+.farvertypografi1{
+    color: #cae4e3;
+    background-color: #00454e;
+    width: 200px;
+    height: 28px;
+    text-align: center;
+}
+.farvertypografi2{
+    color: #00454e;
+    background-color: #cae4e3;
+    width: 200px;
+    height: 28px;
+    text-align: center;
+}
+
+/*slut typografi*/
+
+/*ikoner*/
+.knapbillede{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/*ikon grid*/
+.knaptitel1{
+    margin-left: 260px;
+}
+.container{
+    margin-left: 240px; /* Sikre at indeholdet på siden ikke gemmer sig bag navbaren */
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.bredde{
+    width: 400px;
+}
+.bredde1{
+    width: 180px;
+}
+
+.guideknap {
+    color: #FEFEFE;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-size: 17px;
+    background: #00454E;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+
+  .breadcrumbing1 {
+    height: 30px;
+    width: 15vw;
+    background-color: #00454E20;
+    border: #00454E20;
+    border-style: solid;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  .breadcrumbing2 {
+    height: 30px;
+    width: 15vw;
+    background-color: #00454e;
+    border: #00454E20;
+    border-style: solid;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+  }
+
+
+
+/*billeder*/
+.guidetitel{
+    text-align: center;
+    
+}
+.guidebilleder{
+    max-width: 300px;
+    max-height: auto;
+}
+
