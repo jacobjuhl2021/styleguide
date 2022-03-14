@@ -21,7 +21,7 @@
   <h1     class="knaptitel1">Hjem ikon </h1>
     <div class="container">
         
-        <div><img class="knapbillede" src="knapper/hjem.png" alt="ikon" class="knap1" style="background-color: #00454e;"></div>
+        <div><img class="knapbillede" src="knapper/hjem.png" alt="Hjem knap" style="background-color: #00454e;"></div>
         <p      class="bredde">Hjem knappen er til for at lade brugeren tilgå oversigten over alle tilgængelige guides</p>
         <span   class="bredde"> HTML:<br> &lt;li>&lt;img src="billeder/footerbilleder/HOME BUTTON.png" class="footerbilleder">: Sender dig tilbage til hovedmenu'en&lt;/li></span>
         <span   class="bredde1">CSS:<br>
@@ -35,7 +35,7 @@
 
     <h1     class="knaptitel1">Info ikon </h1>
     <div class="container">
-        <div><img class="knapbillede" src="knapper/info.png" alt="ikon" class="knap1"style="background-color: #00454e;"></div>
+        <div><img class="knapbillede" src="knapper/info.png" alt="Info knap" style="background-color: #00454e;"></div>
         <p       class="bredde">Info knappen er til for at lade brugeren tilgå forklaring om hvordan siden fungere.</p>
         <span    class="bredde">HTML:<br> &lt;li>&lt;img src="billeder/footerbilleder/QUESTIONMARK.png" class="footerbilleder">: Hjælp til App'en &lt;/li></span>
         <span    class="bredde1">CSS:<br>
@@ -48,7 +48,7 @@
 
     <h1     class="knaptitel1">Itslearning ikon </h1>
     <div class="container">
-        <div><img class="knapbillede" src="knapper/itslearning.png" alt="ikon" class="knap1"style="background-color: #00454e;"></div>
+        <div><img class="knapbillede" src="knapper/itslearning.png" alt="ItsLearning knap" style="background-color: #00454e;"></div>
         <p       class="bredde">ItsLearning knappen er til for at lade brugeren tilgå itslearning direkte fra vores side.</p>
         <span    class="bredde">HTML:<br> &lt;li>&lt;img src="billeder/footerbilleder/itslearning-logo.png" class="footerbilleder">: Sender dig videre til ItsLearning.com&lt;/li></span>
         <span    class="bredde1">CSS:<br>
@@ -62,7 +62,7 @@
 
     <h1     class="knaptitel1">SoMe ikon </h1>
     <div class="container">
-        <div><img class="knapbillede" src="knapper/some.png" alt="ikon" class="knap1"style="background-color: #00454e;"></div>
+        <div><img class="knapbillede" src="knapper/some.png" alt="SoMe knap" style="background-color: #00454e;"></div>
         <p       class="bredde">SoMe knappen er til for at lade brugeren tilgå UCL's sociale medier direkte fra vores side.</p>
         <span    class="bredde">HTML:<br> &lt;li>&lt;img src="billeder/footerbilleder/SoMe (1).png" class="footerbilleder">: Viser UCL's sociale medier&lt;/li></span>
         <span    class="bredde1">CSS:<br>
@@ -75,7 +75,7 @@
 
     <h1     class="knaptitel1">Sprog ikon </h1>
     <div class="container">
-        <div><img class="knapbillede" src="knapper/sprog.png" alt="ikon" class="knap1"style="background-color: #00454e;"></div>
+        <div><img class="knapbillede" src="knapper/sprog.png" alt="Sprog knap" style="background-color: #00454e;"></div>
         <p       class="bredde">Sprog knappen er til for at lade brugeren skifte mellem dansk og engelsk.</p>
         <span    class="bredde">HTML:<br> &lt;li>&lt;img src="billeder/footerbilleder/sprog.png" class="footerbilleder">: Ændre sprog&lt;/li></span>
         <span    class="bredde1">CSS:<br>
@@ -90,7 +90,7 @@
     <h1     class="knaptitel1">Venstre knap </h1>
     <div class="container">
         
-        <div><img class="knappil" src="knapper/left.png" alt="ikon" class="knap1" ></div>
+        <div><img class="knappil" src="knapper/left.png" alt="Venstre knap"></div>
         <p      class="bredde">Venstre knappen er til for at lade brugeren navigere tilbage til tidligere slide i en guide</p>
         <span   class="bredde"> HTML:<br> &lt;button id="left" onclick="backward()">&lt;img src="billeder/left-right/gronpil.png" alt="left arrow">&lt;/button></span>
         <span   class="bredde1">CSS:<br>
@@ -104,7 +104,7 @@
           <span   class="bredde1">js:<br>
             function backward(){<br>
                 i--;<br>
-              if(i < 0){<br>
+              if(i &lt; 0){<br>
                 i = 0
               }
               document.slide.src = images[i];<br>
@@ -119,7 +119,7 @@
           <h1     class="knaptitel1">Højre knap </h1>
           <div class="container">
               
-              <div><img class="knappil" src="knapper/right.png" alt="ikon" class="knap1" ></div>
+              <div><img class="knappil" src="knapper/right.png" alt="Højre knap"></div>
               <p      class="bredde">Højre knappen er til for at lade brugeren navigere tilbage til tidligere slide i en guide</p>
               <span   class="bredde"> HTML:<br> &lt;button id="right" onclick="forward()">&lt;img src="billeder/left-right/gronpilhojre.png" alt="right arrow">&lt;/button></span>
               <span   class="bredde1">CSS:<br>
@@ -132,7 +132,7 @@
                 </span>
                 <span   class="bredde1">js:<br>
                     function forward(){<br>
-                        if(i < images.length - 1){<br>
+                        if(i &lt; images.length - 1){<br>
                           i++;<br>
                         }<br>
                         document.slide.src = images[i];<br>
@@ -149,7 +149,7 @@
     <h1     class="knaptitel1">Kontakt Vejleder </h1>
     <div class="container">
         
-        <button class="guideknap" id="knap 1"> Kontakt Vejleder </button>
+        <button class="guideknap" id="knap1"> Kontakt Vejleder </button>
         <p      class="bredde">Kontakt Vejleder knappen leder til guiden af samme navn</p>
         <span   class="bredde"> HTML:<br> &lt;button onclick="document.location='guide.html'" class="knap" id="knap 1"> Kontakt Vejleder &lt;/button></span>
         <span   class="bredde1">CSS:<br>
@@ -175,7 +175,7 @@
     <h1     class="knaptitel1">Find Underviser </h1>
     <div class="container">
         
-        <button class="guideknap" id="knap 1"> Find Underviser </button>
+        <button class="guideknap" > Find Underviser </button>
         <p      class="bredde">Find Underviser knappen leder til guiden af samme navn</p>
         <span   class="bredde"> HTML:<br> &lt;button onclick="document.location='guide2.html'" class="knap" id="knap 2"> Find Underviser &lt;/button></span>
         <span   class="bredde1">CSS:<br>
@@ -201,7 +201,7 @@
     <h1     class="knaptitel1">Se Lektier </h1>
     <div class="container">
         
-        <button class="guideknap" id="knap 1"> Se Lektier </button>
+        <button class="guideknap"> Se Lektier </button>
         <p      class="bredde">Se Lektier knappen leder til guiden af samme navn</p>
         <span   class="bredde"> HTML:<br> &lt;button onclick="document.location='guide3.html'" class="knap" id="knap 3"> Se Lektier &lt;/button></span>
         <span   class="bredde1">CSS:<br>
@@ -227,7 +227,7 @@
     <h1     class="knaptitel1">Se Klasseliste </h1>
     <div class="container">
         
-        <button class="guideknap" id="knap 1"> Se Klasseliste </button>
+        <button class="guideknap"> Se Klasseliste </button>
         <p      class="bredde">Se Klasseliste knappen leder til guiden af samme navn</p>
         <span   class="bredde"> HTML:<br> &lt;button onclick="document.location='guide4.html'" class="knap" id="knap 4"> Se Klasseliste &lt;/button></span>
         <span   class="bredde1">CSS:<br>

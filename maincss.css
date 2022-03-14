@@ -159,6 +159,6 @@ body{
 }
 .guidebilleder{
     max-width: 300px;
-    max-height: auto;
+    height: auto;
 }
 
